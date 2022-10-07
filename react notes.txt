@@ -1,0 +1,26 @@
+React JS
+
+-open source js library for ui
+-component based architecture
+	-reusable code
+
+-react is declarative
+-react will handle updating and rendering of components efficiently.
+-easily intgratable to any application.
+
+
+npx:- npm package runner
+
+
+files in react project
+
+-package.json:- contains dependencies and scripts required in  the project.
+-packege-lock.json:- ensure consistent installation of dependencies.
+-gtignore:-is to ensure that certain files not tracked by Git remain untracked.
+-node_module folder:- folder where all dependencies are installed.
+-Public folder:
+		-manifest.json:- concerned with progressive web apps.
+		-index.html:-
+
+-src folder:-
+		-index.js:-specify the root component & the dom element "root".
