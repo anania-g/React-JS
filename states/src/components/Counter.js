@@ -5,7 +5,6 @@ class Counter extends Component {
 
 constructor(props) {
   super(props)
-
   this.state = {
      count: 0
   }
@@ -25,6 +24,8 @@ increment=()=>{
     //     }
     // )
     
+this.num=4
+
     this.setState((prevstate,props)=>({
         count:prevstate.count + 1
     }))
