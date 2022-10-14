@@ -5,7 +5,7 @@ function NameList()
 {
 
 const names=['bruce','clark','Diana']
-const nameList= names.map((name) =><h2>{name}</h2>)
+const nameList= names.map((name,index) =><h2 key={index}>{index} {name}</h2>)
 
 const persons =
 [
@@ -40,12 +40,12 @@ age:30,
 skill:'angular'
     },
 ]
-const personList= persons.map(person => (<Person person={person}></Person>
+const personList= persons.map(person => (<Person key={person.name} person={person}></Person>
 ))
   return (
     <div>
-        <div>{personList}</div>
         <div>{nameList}</div>
+        <div>{personList}</div>
     </div>
         )
 }
